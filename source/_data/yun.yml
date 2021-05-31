@@ -97,3 +97,31 @@ bg_image:
   # dark:
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
+
+pages:
+
+valine:
+  enable: true
+  appId: pXDLD54uldIOKpfCB499SUld-gzGzoHsz
+  appKey: 83K0OowjK1mwyQ647K5PMz0I
+  placeholder: Just go go # comment box placeholder
+  avatar: # gravatar style
+  meta:
+    - nick
+    - mail
+    - link
+  pageSize: 10 # pagination size
+  # lang: zh-CN
+  # visitor: false
+  # highlight: true
+  # recordIP: false
+  # serverURLs:
+  # Emoji See: https://valine.js.org/emoji.html
+  # emojiCDN: //i0.hdslb.com/bfs/emote/
+  # emojiMaps:
+  #   tv_doge: 6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png
+  #   more...
+  # enableQQ: false
+  # requiredFields:
+  #   - nick
+  #   - mail
