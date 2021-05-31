@@ -1,4 +1,4 @@
-mode: auto
+mode: time
 
 avatar:
   enable: true
@@ -18,7 +18,7 @@ banner:
   border: true
   cloud:
     enable: true
-    color: "white"
+    color: "#7B86AD"
   go_down:
     enable: true
     icon: icon-arrow-down-s-line 
@@ -70,3 +70,30 @@ menu:
 
 wordcloud:
   enable: true
+
+colors:
+  primary: "#6200ee"
+  bg: "#F5F5F5"
+  selection_bg: "#8e71c1" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+scrollreveal:
+  enable: true
+  targets:
+    - .post-card
+    - .post-content img
+    
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+bg_image:
+  enable: true
+  url: /images/back.jpg
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
