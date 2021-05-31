@@ -1,4 +1,12 @@
+mode: auto
+
 avatar:
-  url: /images/up.jpg # 你的头像图片地址
-  rounded: true
-  opacity: 1
+  url: /images/avatar.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+reward:
+  enable: true
+  comment: 我很可爱，请给我钱
