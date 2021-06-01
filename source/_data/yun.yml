@@ -125,3 +125,8 @@ valine:
   # requiredFields:
   #   - nick
   #   - mail
+
+wordcount:
+  enable: true
+  count: true
+  time: true
