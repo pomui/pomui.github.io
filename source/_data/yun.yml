@@ -18,7 +18,7 @@ banner:
   border: true
   cloud:
     enable: true
-    color: "#7B86AD"
+    color: "#fff"
   go_down:
     enable: true
     icon: icon-arrow-down-s-line 
@@ -93,9 +93,9 @@ cursor:
 
 bg_image:
   enable: true
-  url: /images/back.jpg
+  url: /images/back2.jpg
   # dark:
-  # blur: 30px # 设置背景模糊程度
+  blur: 0px # 设置背景模糊程度
   opacity: 0.8
 
 pages:
@@ -130,3 +130,22 @@ wordcount:
   enable: true
   count: true
   time: true
+
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: /images/pay.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/wechat.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+sidebar:
+  src: /js/sidebar.js
+  bg_position: bottom 1rem center
